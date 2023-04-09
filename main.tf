@@ -2,8 +2,9 @@
 #   source = "git::https://github.com/RanaSiddireddi/tf-module-vpc.git"
 # }
 
-module "vpc" {
+module "mongo" {
   source   = "./vendor/modules/mongodb"
+  ENV      = var.ENV
 }
 
 
