@@ -1,0 +1,4 @@
+mongodb:
+    source:  "https://github.com/RanaSiddireddi/tf-module-mongodb.git"
+    version: "main"
+
